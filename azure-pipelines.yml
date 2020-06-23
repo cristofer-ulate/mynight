@@ -3,10 +3,14 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger: none
+trigger:
+  - 'none'
 
-pr: 
-- master
+pr:
+  autoCancel: false
+  branches:
+    include:
+    - master
 
 
 pool:
