@@ -17,7 +17,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  isMain: $[or(startswith(variables['System.PullRequest.TargetBranch'], 'refs/heads/master'), startswith(variables['System.PullRequest.TargetBranch'], 'master'))] 
+  isMain: $[or(startswith(variables['System.PullRequest.TargetBranch'], 'refs/heads/masterh'), startswith(variables['System.PullRequest.TargetBranch'], 'masterh'))] 
 
 steps:
 - task: Bash@3
