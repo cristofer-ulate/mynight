@@ -10,7 +10,7 @@ pr:
   autoCancel: false
   branches:
     include:
-    - master
+    - master 
 
 
 pool:
